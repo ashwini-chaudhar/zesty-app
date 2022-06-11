@@ -37,7 +37,7 @@ const handleClick = () => {
     </div>
 <div className='image-container'>
        <h3>{currentImage + 1} / {images.length}</h3>
-       <img src={images[currentImage]}  onClick= {handleClick}/>
+       <img src={images[currentImage]} alt={images[currentImage]} onClick= {handleClick}/>
         </div>
     </div>
   );
